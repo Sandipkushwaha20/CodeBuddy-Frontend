@@ -5,8 +5,14 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-400" data-theme="wireframe">
     <div className="flex-1" >
-        <a className="btn btn-ghost text-xl">CodeBuddy</a>
-        
+        <div  className="flex items-center gap-2 ml-2">
+            <div className="w-10 rounded-full">
+            <img
+                alt="Tailwind CSS Navbar component"
+                src="../public/image/Logo 1.png"/>
+            </div>
+        <a className=" text-xl font-bold">CodeBuddy</a>
+        </div>
     </div>
     <div className="flex-none gap-2">
         <Theme/>
